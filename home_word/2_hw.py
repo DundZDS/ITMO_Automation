@@ -14,12 +14,13 @@ def task_1() ->None:
 task_1()
 
 
-def task_2()->None:
+def task_2():
      a = [1, 2, 3, 5, 8, 13, 21]
      print( a[0:3])
- task_2()
 
- print('Последовательность Фибаначчи')
+task_2()
+
+print('Последовательность Фибаначчи')
 
 
 def task_3(x:float) -> float:
