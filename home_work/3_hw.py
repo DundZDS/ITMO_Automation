@@ -1,5 +1,5 @@
 # Задача 2. Функция на вход получает два произвольных числа. Вывести в консоль наибольшее из чисел.
-from itertools import count
+
 
 
 def compare_numbers(num_1, num_2):
@@ -23,7 +23,7 @@ def number_difference_135(num_3, num_4):
     else:
         print('No', abs(num_3 - num_4))
 
-number_difference_135(-1,-136)
+number_difference_135(1,136)
 
 
 # Задача4. Функция на вход получает произвольное число от 1 до 12 (номер месяца).
