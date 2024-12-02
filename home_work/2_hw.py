@@ -50,11 +50,3 @@ print('Последовательность Фибаначчи')
 def task_3(x:float) -> float:
     return x*x
 print(task_3(3))
-
-
-
-
-
-
-
-

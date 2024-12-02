@@ -10,7 +10,7 @@ def compare_numbers(num_1, num_2):
     else:
         print(num_2)
 
-compare_numbers(55,5)
+compare_numbers(5,55)
 
 
 # Задача 3. Функция на вход получает два произвольных числа. Вывести в консоль “yes”,
@@ -19,11 +19,11 @@ compare_numbers(55,5)
 
 def number_difference_135(num_3, num_4):
     if abs(num_3 - num_4) == 135:
-        print('Yes')
+        print('Yes', abs(num_3 - num_4))
     else:
-        print('No')
+        print('No', abs(num_3 - num_4))
 
-number_difference_135(0,135)
+number_difference_135(-1,-136)
 
 
 # Задача4. Функция на вход получает произвольное число от 1 до 12 (номер месяца).
@@ -49,7 +49,7 @@ time_of_year(-9)
 # Задача5. Функция на вход получает три произвольных числа. Если все числа больше 10, то вывести на экран “yes”, иначе “no”;
 
 def three_numbers_greater_than_10(num_6,num_7,num_8):
-    if num_6 > 10 or num_7 > 10 or num_8 > 10:
+    if num_6 > 10 and num_7 > 10 and num_8 > 10:
         print('yes')
     else:
         print('no')
