@@ -103,17 +103,36 @@ math.Division()
 
 class Tools:
 
-    def __init__(self, text, type= 'button', loc = None):
+
+    type: str = 'Button'
+
+
+    def __init__(self, text, loc = None):
         self.text = text
-        self.type = type
         self.loc = loc
 
 
-class Elements(Tools):
+    def click(self):
+        return 'Клик по кнопке - {}'.format(self.text)
 
-    def Text_BOX(self):
-        text = 'Text Box'
-        type = 'button'
+Text_Box = Tools('Text Box', type)
+print(Text_Box.text, Text_Box.click())
+Check_Box = Tools('Check Box')
+print(Check_Box.text, Check_Box.click())
+Radio_button = Tools('Radio Button')
+print(Radio_button.text, Radio_button.click())
+Web_Tables = Tools('Web Tables')
+print(Web_Tables.text , Web_Tables.click())
+Buttons = Tools('Buttons')
+print(Buttons.text , Buttons.click())
+Links = Tools('Links')
+print(Links.text , Links.click())
+Broken_links_Images = Tools('Broken links - Images')
+print(Broken_links_Images.text, Broken_links_Images.click())
+Upload_and_Download = Tools('Upload and Download')
+print(Upload_and_Download.text, Upload_and_Download.click())
+Dynamic_Properties = Tools('Dynamic Properties')
+print(Dynamic_Properties.text, Dynamic_Properties.click())
 
-    def click_on_the_button(self):
-        return "Клик по кнопке - {}".format(self.text)
+
+
