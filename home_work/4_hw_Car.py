@@ -15,25 +15,25 @@ class Car:
         self.year = year
 
 
-    def Start(self):
+    def start(self):
         return print('Автомобиль заведен')
 
-    def Turned_off(self):
+    def turned_off(self):
         return print('Автомобиль заглушен')
 
-    def Year_of_manufacture(self):
+    def year_of_manufacture(self):
         return f'Год выпуска {self.year}'
 
-    def Car_type(self):
+    def car_type(self):
         return f'Машина {self.type}'
 
-    def Car_color(self):
+    def car_color(self):
         return f'Цвет машины {self.color}'
 
 newcar = Car ('white', 'BMW', 2024)
 
-newcar.Start()
-newcar.Turned_off()
-print(newcar.Year_of_manufacture())
-print(newcar.Car_type())
-print(newcar.Car_color())
+newcar.start()
+newcar.turned_off()
+print(newcar.year_of_manufacture())
+print(newcar.car_type())
+print(newcar.car_color())
