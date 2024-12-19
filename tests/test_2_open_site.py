@@ -15,5 +15,9 @@ else:
     print('Элемент найден')
 
 
+> body > > div >header > a >img src='/images/toolsqa.jpg'
+
+footer span
 
 
+[class = "card mt-4 top-card"]
